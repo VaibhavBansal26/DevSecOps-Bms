@@ -109,3 +109,8 @@ Handle Notification
 Handle Default Trigger
 Handle Sonar Qube
 
+Some git
+git rm --cached .env
+git reset --soft HEAD~1
+
+
