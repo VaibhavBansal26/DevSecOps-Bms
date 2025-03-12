@@ -1,4 +1,30 @@
 # DevSecOps-Bms
+
+# Jenkins
+![Jenkins](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820659/Screenshot_2025-03-12_at_3.30.17_PM_rnphpr.png)
+
+![Jenkins 1](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820659/Screenshot_2025-03-12_at_3.30.28_PM_oefslg.png)
+
+# Sonar Qube
+![Sonar Qube](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820661/Screenshot_2025-03-12_at_3.31.25_PM_elf0u3.png)
+
+# Amazon EKS Dashboard
+![Amazon EKS Dashboard](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820659/Screenshot_2025-03-12_at_3.32.32_PM_u4us9u.png)
+
+![eks cluster](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820659/Screenshot_2025-03-12_at_3.32.14_PM_tm78fo.png)
+
+# Prometheus
+![Prometheus](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820661/Screenshot_2025-03-12_at_3.30.55_PM_medotr.png)
+
+# Grafana
+![Grafana](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820659/Screenshot_2025-03-12_at_3.29.51_PM_cfymkq.png)
+
+![Grafana 1](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820661/Screenshot_2025-03-12_at_3.29.27_PM_b4ibmu.png)
+
+# Agro CD
+![Agro Cd](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820661/Screenshot_2025-03-12_at_3.22.27_PM_rgjwtq.png)
+
+
 BMS
 
 Step 1: AWS Console Login And EC2 Setup
