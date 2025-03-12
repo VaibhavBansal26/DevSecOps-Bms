@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: prime-app
+  name: bms-app
   labels:
-    app: prime-app
+    app: bms-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: prime-app
+      app: bms-app
   template:
     metadata:
       labels:
-        app: prime-app
+        app: bms-app
     spec:
       containers:
-      - name: prime-app
-        image: amonkincloud/amazon-prime:latest
+      - name: bms-app
+        image: vaibhavbansal26/bms-prime:latest
         ports:
         - containerPort: 3000

@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: prime-app
+  name: bms-app
   labels:
-    app: prime-app
+    app: bms-app
 spec:
   type: NodePort
   ports:
@@ -11,4 +11,4 @@ spec:
     targetPort: 3000
     nodePort: 30001
   selector:
-    app: prime-app
+    app: bms-app
