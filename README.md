@@ -1,5 +1,24 @@
 # DevSecOps-Bms
 
+
+![dEVOPs](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741824030/Screenshot_2025-03-12_at_7.57.18_PM_uiktvg.png)
+
+1. GitHub → Jenkins → SonarQube → Docker Build
+
+Code is pulled from GitHub, built by Jenkins, analyzed by SonarQube, and containerized via Docker.
+
+2. Argo CD, Helm, and EKS
+
+Argo CD (GitOps) or Helm charts are used to deploy and manage your application on Amazon EKS.
+
+3. Monitoring (Prometheus + Grafana)
+
+Prometheus collects metrics, and Grafana visualizes them.
+
+4. CloudFormation
+   
+Used to provision and manage AWS infrastructure (e.g., the EKS cluster, networking, IAM roles, etc.).
+
 # Jenkins
 ![Jenkins](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820659/Screenshot_2025-03-12_at_3.30.17_PM_rnphpr.png)
 
@@ -24,8 +43,16 @@
 # Agro CD
 ![Agro Cd](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820661/Screenshot_2025-03-12_at_3.22.27_PM_rgjwtq.png)
 
+# Instance
+![EC2] (https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741821857/Screenshot_2025-03-12_at_7.19.48_PM_hlky3t.png)
 
-BMS
+# Security Group & Ports
+![SG](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741821857/Screenshot_2025-03-12_at_7.19.27_PM_qlkl2k.png)
+
+# Cloud Formation
+![cf](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741821856/Screenshot_2025-03-12_at_7.20.13_PM_mjufmq.png)
+
+# BMS
 
 Step 1: AWS Console Login And EC2 Setup
 
