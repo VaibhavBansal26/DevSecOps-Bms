@@ -3,21 +3,17 @@
 
 ![dEVOPs](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741824030/Screenshot_2025-03-12_at_7.57.18_PM_uiktvg.png)
 
-1. GitHub → Jenkins → SonarQube → Docker Build
+**1. GitHub → Jenkins → SonarQube → Docker Build**
+    Code is pulled from GitHub, built by Jenkins, analyzed by SonarQube, and containerized via Docker.
 
-Code is pulled from GitHub, built by Jenkins, analyzed by SonarQube, and containerized via Docker.
+**2. Argo CD, Helm, and EKS**
+    Argo CD (GitOps) or Helm charts are used to deploy and manage your application on Amazon EKS.
 
-2. Argo CD, Helm, and EKS
+**3. Monitoring (Prometheus + Grafana)**
+    Prometheus collects metrics, and Grafana visualizes them.
 
-Argo CD (GitOps) or Helm charts are used to deploy and manage your application on Amazon EKS.
-
-3. Monitoring (Prometheus + Grafana)
-
-Prometheus collects metrics, and Grafana visualizes them.
-
-4. CloudFormation
-   
-Used to provision and manage AWS infrastructure (e.g., the EKS cluster, networking, IAM roles, etc.).
+**4. CloudFormation**
+    Used to provision and manage AWS infrastructure (e.g., the EKS cluster, networking, IAM roles, etc.).
 
 # Jenkins
 ![Jenkins](https://res.cloudinary.com/vaibhav-codexpress/image/upload/v1741820659/Screenshot_2025-03-12_at_3.30.17_PM_rnphpr.png)
